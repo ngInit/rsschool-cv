@@ -1,2 +1,1 @@
-# rsschool-cv
-RS School CV
+### [Open CV 🔗](https://ngInit.github.io/rsschool-cv/cv "Link to RS CV")
