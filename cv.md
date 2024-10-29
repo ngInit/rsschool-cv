@@ -25,3 +25,56 @@ me to work just as well on team projects as on my own.
 • Analytical skills     • Problem solving       • Agile & Waterfall
 </pre>
 </div>
+<br>
+<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<span style="font-weight:700;margin:14px">CODE EXAMPLE</span>
+
+```javascript
+async getArtists(artist) {
+
+        await fetch(this.currentRequest, this.options)
+            .then(artists => {
+                if (artists.ok) {
+                    console.log(artists.status);
+                    return artists.clone().json();
+                }
+                else {
+                    return 0;
+                }
+            })
+            .then(list => {
+                this.artists.count = list["count"];
+                list.artists.map(item => {
+                    let artist = Object.assign({}, this.newArtist);
+                    artist.id = item["id"];
+                    artist.name = item["name"];
+                    artist.country = item["country"];
+                    this.artists.list.push(artist);
+                })
+
+            });
+
+        return this.artists;
+    }
+```
+</div>
+<br>
+<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700">WORK EXPERIENCE</span><br>
+<span style="font-size:12px;font-weight:700">CNC programmer (2014 - 2022)</span>
+<pre style="margin-left:14px">
+• Writing code for manufacturing machines
+• Testing, analyzing and correcting existing code
+• Supporting code at all stages of the life cycle
+• Writing technical documentation
+• Training & mentoring
+</pre>
+<span style="display:inline-block;margin-top:14px;font-size:12px;font-weight:700">Adjuster CNC machines (2012 - 2014)</span><br>
+<pre style="margin-left:14px">
+• Working with 3-Axis and 3+1-Axis CNC machines
+• Setting up production equipment
+• Debugging program projects
+• Reading blueprints and technical documentation
+• Writing documentation for the purchase of tools
+</pre>
+</div>
