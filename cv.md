@@ -27,6 +27,7 @@ as on my own.
 <br>
 <div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
 <span style="font-weight:700;margin:14px">CODE EXAMPLE</span>
+</div>
 
 ```javascript
 async getArtists(artist) {
@@ -56,7 +57,6 @@ async getArtists(artist) {
         return this.artists;
     }
 ```
-</div>
 <br>
 <div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
 <span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700">WORK EXPERIENCE</span><br>
