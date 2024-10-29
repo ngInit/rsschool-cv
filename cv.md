@@ -7,8 +7,11 @@
 <div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
 <span style="display:inline-block;margin-left:14px;font-weight:700">ABOUT ME</span>
 <pre style="margin-left:14px">
-I'm an engineer with 8 years’ experience in CNC programming industry. I decided to change my way and nowadays, I'm interested in frontend and full-stack development. I have some modern frontend development skills and solid knowledge of common design patterns.
-Moreover, my ability to self-education and self-organization allow me to work just as well on team projects as on my own.
+I'm an engineer with 8 years’ experience in CNC programming industry. I decided to change my way and nowadays,
+I'm interested in frontend and full-stack development. I have some modern frontend development skills and 
+solid knowledge of common design patterns.
+Moreover, my ability to self-education and self-organization allow me to work just as well on team projects 
+as on my own.
 </pre>
 </div>
 <br>
