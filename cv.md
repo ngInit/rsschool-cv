@@ -78,3 +78,45 @@ async getArtists(artist) {
 • Writing documentation for the purchase of tools
 </pre>
 </div>
+<br>
+<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700">EDUCATION</span><br>
+<span style="font-size:12px;font-weight:700">Postgraduate degree (PhD)</span>
+<pre style="margin-left:14px">
+ITMO University 2017 - 2021
+GPA: 4.37 of 5.00
+Field: Engineering (Faculty of Control Systems and Robotics)
+</pre>
+<span style="display:inline-block;margin-top:14px;font-size:12px;font-weight:700">Master's Degree</span>
+<pre style="margin-left:14px">
+ITMO University 2015 - 2017
+GPA: 4.76 of 5.00
+Field: Engineering (Device-making technologies)
+</pre>
+<span style="display:inline-block;margin-top:14px;font-size:12px;font-weight:700">Bachelor's degree</span>
+<pre style="margin-left:14px">
+ITMO University 2011 - 2015
+GPA: 4.41 of 5.00
+Field: Engineering
+</pre>
+<span style="display:inline-block;margin-top:14px;font-size:12px;font-weight:700">HTML, CSS, and Javascript for Web Developers</span><br>
+<pre style="margin-left:14px">
+The Johns Hopkins University
+Issue date: February 2023
+ID: V3RY4TFUDBM3
+</pre>
+<span style="display:inline-block;margin-top:14px;font-size:12px;font-weight:700">CSS (Basic)</span>
+<pre style="margin-left:14px">
+HackerRank
+Issue date: November 2023
+ID: B1B49D0C7BF3
+</pre>
+</div>
+<br>
+<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700">LANGUAGES</span><br>
+<span style="display:inline-block;margin-left:14px">English language school HOP&SCOTCH: <span style="font-weight:700">Upper-Intermediate II (B2)</span></span><br>
+<span style="display:inline-block;margin-left:14px">Russian: <span style="font-weight:700">Native</span></span><br>
+<span style="display:inline-block;margin-left:14px">Ukrainian: <span style="font-weight:700">Native</span></span><br>
+<span style="display:inline-block;margin-left:14px">Hungarian: <span style="font-weight:700">Beginner (A1)</span></span>
+</div>
