@@ -1,9 +1,9 @@
-<div style="display:flex;background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
-<img width="100px" style="display:inline-block" src="https://raw.githubusercontent.com/ngInit/Assets/refs/heads/main/cvA.png" alt="CV image">
-<h2 style="display: inline-block; margin-left: 24px">Aleksei Nikolaev</h2>
+<div style="display:flex;background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:28px">
+<img width="100px" style="display:inline-block;background:none" src="https://raw.githubusercontent.com/ngInit/Assets/refs/heads/main/cvA.png" alt="CV image">
+<h2 style="display:inline-block;margin-top:36px;border:none;margin-left:24px">Aleksei Nikolaev</h2>
 </div>
 <br>
-<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:28px">
 <span style="color:#8900bd">Tel:</span> <span style="color:#2b87a7">+36 (70) 555-00-00</span><br>
 <span style="color:#8900bd">Email:</span> <span style="color:#2b87a7">aleksey.nikolaev@gmail.com</span><br>
 <span style="color:#8900bd">GitHub:</span> <a style="color:#2b87a7" href="https://github.com/ngInit">Open Link</a></div>
