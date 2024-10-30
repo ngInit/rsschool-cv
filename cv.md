@@ -4,8 +4,8 @@
 </div>
 <br>
 <div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:28px">
-<span style="color:#8900bd">Tel:</span> <span style="color:#2b87a7">+36 (70) 555-00-00</span><br>
-<span style="color:#8900bd">Email:</span> <span style="color:#2b87a7">aleksey.nikolaev@gmail.com</span><br>
+<span style="color:#8900bd">Tel:</span> <span style="color:#2b87a7">+36 (70) 555-17-69</span><br>
+<span style="color:#8900bd">Email:</span> <span style="color:#2b87a7">aleksey.nikolaev.eng@gmail.com</span><br>
 <span style="color:#8900bd">GitHub:</span> <a style="color:#2b87a7" href="https://github.com/ngInit">Open Link</a></div>
 <br>
 <div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
@@ -29,8 +29,9 @@ as on my own.
 </pre>
 </div>
 <br>
-<DIV style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
-<span style="font-weight:700;margin:14px;color:steelblue">CODE EXAMPLE</span><br>
+<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<span style="font-weight:700;margin:14px;color:steelblue">CODE EXAMPLE</span>
+</div>
 
 ```js
 async function getArtists(artist) {
@@ -60,8 +61,6 @@ async function getArtists(artist) {
         return this.artists;
     }
 ```
-
-</DIV>
 
 <br>
 <div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
