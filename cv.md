@@ -63,6 +63,25 @@ async function getArtists(artist) {
     }
 ```
 
+
+<div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-top:none;border-radius:0 0 10px 10px;padding:14px">
+<span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700;">Projects</span><br>
+<span style="font-size:14px;margin-left: 28px">Currency Chart ( <a href="https://currency-chart.vercel.app/Login">Open Project</a> )</span>
+<pre style="background:none; padding:0 0 0 28px; margin:0">
+<i>• Description:</i> A web-app with a chart for comparing currencies
+<i>• Login:</i> Guest
+<i>• Password:</i> My2007
+</pre>
+<br>
+<span style="font-size:14px;margin-left: 28px">CUE Sheet Audio ( <a href="https://marketplace.visualstudio.com/items?itemName=QuantumPannonia.cue-sheet-audio">Open Project</a> )</span>
+<pre style="background:none; padding:0 0 0 28px; margin:0">
+<i>• Description:</i> This VS Code extension was created to make it easier to create and edit CUE Sheets of Audio files
+</pre>
+
+</div>
+
+
+
 <br>
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
 <span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700;color:steelblue">WORK EXPERIENCE</span><br>
