@@ -52,31 +52,29 @@ as on my own.
 </div>
 
 ````js
-async function getArtists(artist) {
-    
-    await fetch(this.currentRequest, this.options)
-        .then(artists => {
-            if (artists.ok) {
-                console.log(artists.status);
-                return artists.clone().json();
-            }
-            else {
-                return 0;
-            }
-        })
-        .then(list => {
-            this.artists.count = list["count"];
-            list.artists.map(item => {
-                let artist = Object.assign({}, this.newArtist);
-                artist.id = item["id"];
-                artist.name = item["name"];
-                artist.country = item["country"];
-                this.artists.list.push(artist);
+    async function getArtists(artist) {
+        await fetch(this.currentRequest, this.options)
+            .then(artists => {
+                if (artists.ok) {
+                    console.log(artists.status);
+                    return artists.clone().json();
+                }
+                else {
+                    return 0;
+                }
             })
-        });
-    return this.artists;
-    
-}
+            .then(list => {
+                this.artists.count = list["count"];
+                list.artists.map(item => {
+                    let artist = Object.assign({}, this.newArtist);
+                    artist.id = item["id"];
+                    artist.name = item["name"];
+                    artist.country = item["country"];
+                    this.artists.list.push(artist);
+                })
+            });
+        return this.artists;
+    }
 ````
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px;margin-top: 36px">
 <span style="display:inline-block;margin:0 0 8px 14px;font-weight:700;color:steelblue">WORK EXPERIENCE</span><br>
