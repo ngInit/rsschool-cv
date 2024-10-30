@@ -5,7 +5,8 @@
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-top:none;border-radius:0 0 10px 10px;padding: 0 28px 28px;">
 <span style="color:steelblue">Tel:</span> <span>+36 (70) 555-17-69</span><br>
 <span style="color:steelblue">Email:</span> <span>aleksey.nikolaev.eng@gmail.com</span><br>
-<span style="color:steelblue">GitHub:</span> <a href="https://github.com/ngInit">Open Link</a>
+<span style="color:steelblue">Discord:</span> Aleksei (@ngInit)<span></span><br>
+<span style="color:steelblue">GitHub:</span> <a href="https://github.com/ngInit">Open Link</a><br>
 </div>
 <br>
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
