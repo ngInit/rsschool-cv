@@ -51,34 +51,33 @@ as on my own.
 <span style="display:inline-block;margin:0 0 0 14px;font-weight:700;color:steelblue">CODE EXAMPLE</span>
 </div>
 
-```js
+````js
 async function getArtists(artist) {
-
-        await fetch(this.currentRequest, this.options)
-            .then(artists => {
-                if (artists.ok) {
-                    console.log(artists.status);
-                    return artists.clone().json();
-                }
-                else {
-                    return 0;
-                }
+    
+    await fetch(this.currentRequest, this.options)
+        .then(artists => {
+            if (artists.ok) {
+                console.log(artists.status);
+                return artists.clone().json();
+            }
+            else {
+                return 0;
+            }
+        })
+        .then(list => {
+            this.artists.count = list["count"];
+            list.artists.map(item => {
+                let artist = Object.assign({}, this.newArtist);
+                artist.id = item["id"];
+                artist.name = item["name"];
+                artist.country = item["country"];
+                this.artists.list.push(artist);
             })
-            .then(list => {
-                this.artists.count = list["count"];
-                list.artists.map(item => {
-                    let artist = Object.assign({}, this.newArtist);
-                    artist.id = item["id"];
-                    artist.name = item["name"];
-                    artist.country = item["country"];
-                    this.artists.list.push(artist);
-                })
-
-            });
-
-        return this.artists;
-    }
-```
+        });
+    return this.artists;
+    
+}
+````
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px;margin-top: 36px">
 <span style="display:inline-block;margin:0 0 8px 14px;font-weight:700;color:steelblue">WORK EXPERIENCE</span><br>
 <span style="font-size:14px;font-weight:700;padding:0;margin:0 0 0 28px">CNC programmer (2014 - 2022)</span>
