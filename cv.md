@@ -6,7 +6,7 @@
 <span style="color:steelblue">Tel:</span> <span>+36 (70) 555-17-69</span><br>
 <span style="color:steelblue">Email:</span> <span>aleksey.nikolaev.eng@gmail.com</span><br>
 <span style="color:steelblue">Discord:</span> Aleksei (@ngInit)<span></span><br>
-<span style="color:steelblue">GitHub:</span> <a href="https://github.com/ngInit">Open Link</a><br>
+<span style="color:steelblue">GitHub:</span> <a target="_blank" href="https://github.com/ngInit">Open Link</a><br>
 </div>
 <br>
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
@@ -29,6 +29,23 @@ as on my own.
 • Analytical skills     • Problem solving       • Agile & Waterfall
 </pre>
 </div>
+<br>
+
+<div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<span style="display:inline-block;margin:0 0 8px 0;font-weight:700;color:steelblue">PROJECTS</span><br>
+<span style="font-size:14px;padding:0;margin:0 0 0 28px">Currency Chart ( <a target="_blank" href="https://currency-chart.vercel.app/Login">Open Project</a> )</span>
+<pre style="background:none;padding:0;margin:0 0 0 28px">
+<i>• Description:</i> A web-app with a chart for comparing currencies
+<i>• Login:</i> Guest
+<i>• Password:</i> My2007
+</pre>
+<br>
+<span style="font-size:14px;padding:0;margin:0 0 0 28px">CUE Sheet Audio ( <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=QuantumPannonia.cue-sheet-audio">Open Project</a> )</span>
+<pre style="background:none;padding:0;margin:0 0 0 28px">
+<i>• Description:</i> This VS Code extension was created to make it easier to create and edit CUE Sheets of Audio files
+</pre>
+</div>
+
 <br>
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-bottom:none;border-radius:10px 10px 0 0;padding:14px">
 <span style="font-weight:700;margin:14px;color:steelblue">CODE EXAMPLE</span>
@@ -62,27 +79,6 @@ async function getArtists(artist) {
         return this.artists;
     }
 ```
-
-
-<div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-top:none;border-radius:0 0 10px 10px;padding:14px">
-<span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700;">Projects</span><br>
-<span style="font-size:14px;margin-left: 28px">Currency Chart ( <a href="https://currency-chart.vercel.app/Login">Open Project</a> )</span>
-<pre style="background:none; padding:0 0 0 28px; margin:0">
-<i>• Description:</i> A web-app with a chart for comparing currencies
-<i>• Login:</i> Guest
-<i>• Password:</i> My2007
-</pre>
-<br>
-<span style="font-size:14px;margin-left: 28px">CUE Sheet Audio ( <a href="https://marketplace.visualstudio.com/items?itemName=QuantumPannonia.cue-sheet-audio">Open Project</a> )</span>
-<pre style="background:none; padding:0 0 0 28px; margin:0">
-<i>• Description:</i> This VS Code extension was created to make it easier to create and edit CUE Sheets of Audio files
-</pre>
-
-</div>
-
-
-
-<br>
 <div style="background-color:#f6f8fa;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
 <span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700;color:steelblue">WORK EXPERIENCE</span><br>
 <span style="font-size:14px;font-weight:700">CNC programmer (2014 - 2022)</span>
