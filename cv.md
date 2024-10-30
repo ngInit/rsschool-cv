@@ -29,12 +29,11 @@ as on my own.
 </pre>
 </div>
 <br>
-<div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
-<span style="font-weight:700;margin:14px;color:steelblue">CODE EXAMPLE</span>
-</div>
+<DIV style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
+<span style="font-weight:700;margin:14px;color:steelblue">CODE EXAMPLE</span><br>
 
-```javascript
-async getArtists(artist) {
+```js
+async function getArtists(artist) {
 
         await fetch(this.currentRequest, this.options)
             .then(artists => {
@@ -61,6 +60,9 @@ async getArtists(artist) {
         return this.artists;
     }
 ```
+
+</DIV>
+
 <br>
 <div style="background-color:#f6f6f6;border:1px solid #f0f0f0;border-radius:10px;padding:14px">
 <span style="display:inline-block;margin-bottom:8px;margin-left:14px;font-weight:700;color:steelblue">WORK EXPERIENCE</span><br>
